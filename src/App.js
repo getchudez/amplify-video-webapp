@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {HashRouter, Route, Switch} from 'react-router-dom';
 
 import './App.css';
-import WebPlayer from "./WebPlayer/WebPlayer";
+import WebPlayer from "./WebPlayer2/WebPlayer";
 
 /*import Amplify, {Analytics, Auth} from 'aws-amplify';
 import awsconfig from '../aws-exports';
