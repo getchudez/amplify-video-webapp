@@ -29,15 +29,15 @@ class MainVideoSite extends Component {
                 "file" : this.props.match.params.video_id,
             };
 
-            axios.get( "/sandbox/list" , headers)
-                .then( (response) => {
-                    console.log(response);
-                })
-                .catch((error) => {
-                    console.log(error);
-                });
+            // axios.get( "/sandbox/list" , headers)
+            //     .then( (response) => {
+            //         console.log(response);
+            //     })
+            //     .catch((error) => {
+            //         console.log(error);
+            //     });
 
-            axios.post( "/sandbox/video", data, headers)
+            axios.post( "https://hju0wru39g.execute-api.us-east-2.amazonaws.com/sandbox/video", data, headers)
                 .then( (response) => {
                     console.log(response);
                     this.setState({ video_url : response.data });

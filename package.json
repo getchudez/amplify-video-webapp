@@ -18,7 +18,6 @@
     "video-react": "^0.14.1",
     "web-vitals": "^0.2.4"
   },
-  "proxy": "https://hju0wru39g.execute-api.us-east-2.amazonaws.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
