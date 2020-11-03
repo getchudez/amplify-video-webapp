@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e7a70e-25bd-437c-9591-85a3f395fe5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Login/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainLogin/MainLogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainLogin/MainLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainRegister/MainRegister.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainRegister/MainRegister.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Register/Register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Register/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegisterValidation/RegisterValidation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegisterValidation/RegisterValidation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/backend-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/backend-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/team-provider-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/team-provider-info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebPlayer2/WebPlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebPlayer2/WebPlayer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +39,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -43,6 +58,21 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm">
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604349954341</updated>
-      <workItem from="1604349955465" duration="2974000" />
+      <workItem from="1604349955465" duration="4927000" />
     </task>
     <servers />
   </component>
