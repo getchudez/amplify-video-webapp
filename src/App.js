@@ -5,10 +5,8 @@ import './App.css';
 import WebPlayer from "./WebPlayer2/WebPlayer";
 import MainLogin from "./MainLogin/MainLogin";
 import MainRegister from "./MainRegister/MainRegister";
-
-/*import Amplify, {Analytics, Auth} from 'aws-amplify';
-import awsconfig from '../aws-exports';
-Amplify.configure(awsconfig);*/
+import MainSite from "./MainSite/MainSite";
+import MainVideoSite from "./MainVideoSite/MainVideoSite";
 
 class App extends Component {
 
@@ -18,7 +16,8 @@ class App extends Component {
                 <Switch>
                     <Route exact path="/login" component={MainLogin}/>
                     <Route exact path="/register" component={MainRegister}/>
-                    <Route exact path="/video" component={WebPlayer}/>
+                    <Route exact path="/main" component={MainSite}/>
+                    <Route exact path="/video" component={MainVideoSite}/>
                 </Switch>
             </HashRouter>
         );

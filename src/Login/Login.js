@@ -30,6 +30,11 @@ export default function Login() {
             password: password,
         }).then( (response) => {
             setRedirectMain(true);
+            Auth.currentSession().then( data => {
+                console.log(".........");
+                console.log(data.getIdToken().getJwtToken());
+                console.log(".........");
+            });
             console.log(response);
         }).catch( (err) => {
             alert(err.message);
