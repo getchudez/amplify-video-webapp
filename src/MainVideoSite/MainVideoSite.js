@@ -29,13 +29,13 @@ class MainVideoSite extends Component {
                 "file" : this.props.match.params.video_id,
             };
 
-            // axios.get( "/sandbox/list" , headers)
-            //     .then( (response) => {
-            //         console.log(response);
-            //     })
-            //     .catch((error) => {
-            //         console.log(error);
-            //     });
+            axios.get( "/sandbox/list" , headers)
+                .then( (response) => {
+                    console.log(response);
+                })
+                .catch((error) => {
+                    console.log(error);
+                });
 
             axios.post( "/sandbox/video", data, headers)
                 .then( (response) => {
