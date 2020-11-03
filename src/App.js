@@ -17,7 +17,7 @@ class App extends Component {
                     <Route exact path="/login" component={MainLogin}/>
                     <Route exact path="/register" component={MainRegister}/>
                     <Route exact path="/main" component={MainSite}/>
-                    <Route exact path="/video" component={MainVideoSite}/>
+                    <Route exact path="/video/:video_id" component={MainVideoSite}/>
                 </Switch>
             </HashRouter>
         );
